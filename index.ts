@@ -51,6 +51,19 @@ const person2: iPerson = {
 const person3: iPerson ={
     name: "zz",
     age: 19
-}
+};
+
+// Enums
+// const color1 = "#eeeeee";
+// const color2 = "#ffffff";
+// const color3 = "#dddddd";
+
+enum Colors {
+    color1 = "#eeeeee",
+    color2 = "#ffffff",
+    color3 = "#dddddd"
+};
+console.log(Colors.color2);
+console.log(Colors.color3);
 
 

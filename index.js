@@ -35,3 +35,16 @@ var person3 = {
     name: "zz",
     age: 19
 };
+// Enums
+// const color1 = "#eeeeee";
+// const color2 = "#ffffff";
+// const color3 = "#dddddd";
+var Colors;
+(function (Colors) {
+    Colors["color1"] = "#eeeeee";
+    Colors["color2"] = "#ffffff";
+    Colors["color3"] = "#dddddd";
+})(Colors || (Colors = {}));
+;
+console.log(Colors.color2);
+console.log(Colors.color3);
