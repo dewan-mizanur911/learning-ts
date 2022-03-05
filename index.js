@@ -48,3 +48,17 @@ var Colors;
 ;
 console.log(Colors.color2);
 console.log(Colors.color3);
+// generic
+var _concat = function (a, b) {
+    return { a: a, b: b };
+};
+console.log(_concat(1, 3));
+console.log(_concat("m", "n"));
+var arr4 = [1, 2, "Mizan"];
+console.log(arr4);
+var personArr = [
+    person1,
+    person2,
+    person3
+];
+console.log("Persons array : ", personArr);

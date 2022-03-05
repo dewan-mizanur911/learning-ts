@@ -66,4 +66,22 @@ enum Colors {
 console.log(Colors.color2);
 console.log(Colors.color3);
 
+// generic
+const _concat =<T> (a: T, b: T) =>{
+    return {a,b};
+};
+
+console.log(_concat(1,3));
+console.log(_concat("m", "n"));
+
+const arr4 : Array<number | string> = [1, 2, "Mizan"];
+console.log(arr4);
+
+const personArr: iPerson[] /* | Array<iPerson>*/ = [
+    person1,
+    person2,
+    person3
+];
+console.log("Persons array : ",personArr);
+
 
