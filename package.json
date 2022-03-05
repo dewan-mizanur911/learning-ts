@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "name": "learning-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dewan-mizanur911/learning-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dewan-mizanur911/learning-ts/issues"
+  },
+  "homepage": "https://github.com/dewan-mizanur911/learning-ts#readme",
+  "description": ""
+}
